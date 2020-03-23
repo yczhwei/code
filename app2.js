@@ -1,4 +1,4 @@
-// ÎÄ¼şÕ¹Ê¾ mp4
+// æ–‡ä»¶å±•ç¤º mp4
 ;
 function file_video(path){
 	var url = window.location.origin + path;
@@ -9,9 +9,9 @@ function file_video(path){
 	  <source src="${url}" type="video/mp4">
 	</video>
 	<br>
-	<!-- ¹Ì¶¨±êÇ© -->
+	<!-- å›ºå®šæ ‡ç­¾ -->
 	<div class="mdui-textfield">
-	  <label class="mdui-textfield-label">ÄúÏÂÔØµØÖ·</label>
+	  <label class="mdui-textfield-label">æ‚¨----ä¸‹è½½åœ°å€</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 </div>
